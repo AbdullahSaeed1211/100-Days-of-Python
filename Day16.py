@@ -14,13 +14,12 @@ match x:
         print("x is thwee")
     case 10:
         print("x is ten ")
-    case _: #default
-        print(x)
     case _ if x!=90: #default
         print(x, "isn't 90")
     case _ if x!=20: #default
         print(x, "isn't 90")
+    case _: #default
+        print(x)
 
 
-#no break used here unlike cpp , 
- 
+#no break used here unlike cpp ,
